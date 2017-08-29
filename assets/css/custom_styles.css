@@ -1,0 +1,46 @@
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.header_container {
+	position: relative;
+	padding: 10px;
+	font-size: 28px;
+	height: 10vh;
+	background-color: #1a1a1a;
+	border-bottom: 2px solid #fff;
+	box-shadow: #000 0 0 8px 2px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.upload_form_container {
+	position: relative;
+	padding: 10px;
+	/*box-shadow: #000 0 0 8px 2px;*/
+
+}
+
+.image_upload_section {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #2e353d;
+	box-shadow: #000 0 0 8px 2px;
+	color: #fff;
+	border: 1px solid #fff;
+	height: 180px;
+}
+
+.crop_tool_container {
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #2e353d;
+	box-shadow: #000 0 0 8px 2px;
+	color: #fff;
+	border: 1px solid #fff;
+
+}

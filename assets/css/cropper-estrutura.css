@@ -1,0 +1,114 @@
+/*
+    Z-index
+*/
+
+.cropper {z-index: 500;}
+.cropper-box-img {z-index: 510; }
+.cropper-box-img-img {z-index: 520; }
+.cropper-crop { z-index: 530;}
+.cropper-top-bar {z-index: 600;}
+.cropper-shadow-pre {z-index: 700;}
+.cropper-modal-pre {z-index: 710;}
+
+/*
+    Estrutura
+*/
+
+
+.ui-slider { margin-top:10px;}
+
+.cropper {
+    position: absolute;
+    top:20px; 
+    left:20px; 
+    right:20px; 
+    bottom:20px;
+    display:block; 
+}
+.cropper-top-bar {
+    position: absolute;
+    top:20px; 
+    left:20px; 
+    right:20px; 
+    bottom:auto;
+    height:29px;
+    padding:0px;
+
+}
+.cropper-left-top-bar {
+    width:50%;
+    float:left;  
+    padding:0px 0;
+}
+.cropper-slider-value{
+    width:auto;
+    height:20px;
+    float:left;
+    text-align: right;
+    margin:5px 0 0 0;
+}
+.cropper-slider{
+    width:90%;
+    float:left;
+}
+.cropper-right-top-bar {
+    width:50%;
+    float:left;
+
+}
+.cropper-box-img {
+    position: absolute;
+    left:20px; 
+    top:51px; 
+    right:20px; 
+    bottom:20px;
+    overflow:hidden;   
+}
+.cropper-crop {
+    cursor: move;
+    position:absolute; 
+}
+.cropper-box-img-img {position:absolute;}
+.cropper-input { width: 40px; text-align: center;}
+.cropper-draggable {cursor: move;}
+
+.cropper-shadow-pre {
+    display:none;  
+    position: absolute; 
+    top:0; 
+    left:0; 
+    right:0; 
+    bottom:0; 
+    overflow: auto;
+    padding: 10px;
+}
+.cropper-modal-pre {
+    display:none;
+}
+
+
+.cropper-options {
+    padding:10px;
+    top:21px; 
+    left:21px; 
+    right:21px; 
+    bottom:auto;
+    position:fixed;
+    z-index:1200;
+    padding:0px;
+    display:block;
+    height: 29px;
+}
+
+#cropper-btn-salvar { }
+#cropper-btn-previsualizar {  }
+
+.cropper-btn {
+    text-decoration: none;
+    display: inline-block;
+    padding:3px 8px;
+    margin: 2px 4px;
+}
+
+.right {float:right;}
+.left {float:left;}

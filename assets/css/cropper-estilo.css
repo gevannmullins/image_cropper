@@ -1,0 +1,65 @@
+.cropper {
+    background-image: url('../imgs/loading.gif'); 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    box-shadow:0px 0px 20px #000;
+}
+.cropper-top-bar {
+    background-color: #F1F1F1;
+    border-top:1px solid #FFF;
+    border-left:1px solid #FFF;
+    border-right:1px solid #FFF;
+    border-bottom:1px solid #CCC;
+}
+.cropper-box-img {
+    background-image:url('../imgs/bg-box-img.jpg');
+    border-left:1px solid #FFF;
+    border-right:1px solid #FFF;
+    border-bottom:1px solid #FFF;
+}
+.cropper-crop {
+    border:1px dashed #FFF;
+    box-shadow:1px 1px 2px 0px #000;
+    cursor: move;
+    opacity:1;
+    background-image:url('../imgs/spacer.gif');
+}
+.cropper-input {
+    background-color:transparent; 
+    border: 0; 
+    color:#000; 
+}
+.cropper fieldset{ }
+.cropper-draggable {cursor: move;}
+
+.cropper-shadow-pre {
+    background-image:url('../imgs/bg-box-img.jpg');
+}
+.cropper-modal-pre {
+    background-color:#FFF; 
+    background-image: url('../imgs/loading.gif'); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    border:10px solid #FFF; 
+    box-shadow:0px 0px 5px 4px #999;
+}
+
+.cropper-options {
+    background-color:#F1F1F1;
+    border-bottom:1px solid #CCC;
+}
+
+#cropper-btn-salvar { }
+#cropper-btn-previsualizar {  }
+
+.cropper-btn {
+    font-size: 12px;
+    font-family: sans-serif;
+    border:1px solid #CCC;
+    background-color: #FFF;
+}
+.cropper-btn-primary {
+    background-color:#0099FF;
+    color:#FFF;
+    border:1px solid blue;
+}
